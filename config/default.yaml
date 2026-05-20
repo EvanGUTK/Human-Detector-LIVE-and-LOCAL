@@ -1,0 +1,61 @@
+camera_index: 0
+capture_width: 1280
+capture_height: 720
+mirror: false
+
+model_name: yolo11s
+model_imgsz: 640
+confidence: 0.45
+iou: 0.5
+max_detections: 50
+
+alert_sound: true
+alert_toast: true
+alert_flash_ms: 800
+
+show_pose_skeleton: false
+show_hand_skeleton: true
+skeleton_stride: 2
+
+performance_profile: performance
+force_cpu: false
+ui_mode: dashboard
+input_source: webcam
+file_path: ""
+file_loop: true
+file_playback_speed: 1.0
+
+show_debug_overlay: false
+show_zones_on_frame: true
+show_boxes_on_frame: true
+show_hud_on_frame: true
+
+face_enabled: true
+face_match_threshold: 0.45
+face_stride: 3
+face_gallery_id: Default room
+active_profile: Default room
+minimize_to_tray: true
+first_run_complete: false
+
+detect_person: true
+detect_car: false
+detect_class_ids: [0]
+zone_alert_class_ids: [0]
+face_rec_class_ids: [0]
+confidence_per_class: {}
+show_faded_low_conf: false
+fire_smoke_enabled: false
+fire_smoke_onnx_path: ""
+fire_smoke_full_frame: true
+active_model_id: yolo11s
+screen_monitor: 1
+screen_region: null
+screen_fps_cap: 0
+infer_max_width: 1280
+infer_max_height: 720
+preview_mode: performance
+ort_io_binding: true
+model_preset: balanced
+compare_source: video
+compare_playback_speed: 1.0

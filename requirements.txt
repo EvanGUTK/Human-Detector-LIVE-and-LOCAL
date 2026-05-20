@@ -1,0 +1,17 @@
+ultralytics>=8.3.0
+onnxruntime-gpu>=1.19.0
+# Do not install CPU onnxruntime — it overrides GPU and breaks CUDA.
+opencv-python>=4.10.0
+numpy>=1.26.0
+supervision>=0.24.0
+lap>=0.5.12
+PyQt6>=6.7.0
+pyyaml>=6.0.0
+plyer>=2.1.0
+pyinstaller>=6.10.0
+Pillow>=10.0.0
+mediapipe>=0.10.0
+insightface>=0.7.3
+pyqtgraph>=0.13.0
+onnx>=1.16.0
+mss>=9.0.0

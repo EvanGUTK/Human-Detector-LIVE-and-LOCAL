@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec.bak
+.venv/
+venv/
+env/
+
+# Models (downloaded / exported)
+models/*.onnx
+models/*.pt
+models/*.engine
+models/*.task
+models/ngc/
+
+# App data / logs
+*.log
+
+# IDE / Cursor
+.vscode/
+.idea/
+.cursor/
+*.swp
+
+# Local assets cache (screenshots live in docs/images/)
+assets/
+
+# PyInstaller
+*.manifest
+
+# OS
+Thumbs.db
+Desktop.ini
